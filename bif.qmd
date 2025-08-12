@@ -1,0 +1,11 @@
+---
+title: "Bifurcations"
+---
+
+A bifurcation is ...
+
+The 2 types we will look at is trancritical and Hopf bifurctaions
+
+Bifurcations and CRNs
+
+Read more ...

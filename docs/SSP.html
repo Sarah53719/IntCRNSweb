@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ssp – Sarah's page</title>
+<title>Single Stable Points – Sarah’s page</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -68,6 +68,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -186,13 +215,58 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Single Stable Points</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="differentiability" class="level2">
+<h2 class="anchored" data-anchor-id="differentiability">Differentiability</h2>
+<p>A function <span class="math inline">\(\fb:\Real^n\to\Real^m\)</span> is <strong>differentiable</strong> at <span class="math inline">\(\xb\in\Real^n\)</span> if there exists an <span class="math inline">\(m\times n\)</span> matrix <span class="math inline">\(M\)</span> and a map <span class="math inline">\(\Rb:\Real^n\to\Real^m\)</span> such that <span class="math display">\[
+\fb(\xb + \hb) = \fb(\xb) + M\hb + \Rb(\hb) \quad \textrm{for all $\hb\in\Real^n$}
+\]</span> and <span class="math display">\[
+\lim_{\hb\to\bfzero}\frac{\Rb(\hb)}{|\hb|} = \bfzero.
+\]</span></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This definition says that <span class="math inline">\(\fb\)</span> looks locally like a linear map. The second condition ensures that the nonlinear <strong>remainder</strong> <span class="math inline">\(\Rb(\hb)\)</span> goes to zero faster than linear, as you look closer and closer to <span class="math inline">\(\xb\)</span>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="im/differentiability.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="Meaning of differentiability."></p>
+</figure>
+</div>
+</div>
+</div>
+<p>If <span class="math inline">\(M\)</span> exists then it is called the (<strong>total</strong>) <strong>derivative</strong> of <span class="math inline">\(\fb\)</span>.</p>
+<div id="eggen1" class="eg" style="font-size:0.9em; font-family:mainfont;">
+
+
+</div>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -25,6 +25,39 @@
     ]
   },
   {
+    "objectID": "SSP.html",
+    "href": "SSP.html",
+    "title": "Single Stable Points",
+    "section": "",
+    "text": "A function \\(\\fb:\\Real^n\\to\\Real^m\\) is differentiable at \\(\\xb\\in\\Real^n\\) if there exists an \\(m\\times n\\) matrix \\(M\\) and a map \\(\\Rb:\\Real^n\\to\\Real^m\\) such that \\[\n\\fb(\\xb + \\hb) = \\fb(\\xb) + M\\hb + \\Rb(\\hb) \\quad \\textrm{for all $\\hb\\in\\Real^n$}\n\\] and \\[\n\\lim_{\\hb\\to\\bfzero}\\frac{\\Rb(\\hb)}{|\\hb|} = \\bfzero.\n\\]\n\n\n\n\n\n\nNote\n\n\n\nThis definition says that \\(\\fb\\) looks locally like a linear map. The second condition ensures that the nonlinear remainder \\(\\Rb(\\hb)\\) goes to zero faster than linear, as you look closer and closer to \\(\\xb\\).\n\n\n\n\n\n\n\nIf \\(M\\) exists then it is called the (total) derivative of \\(\\fb\\).",
+    "crumbs": [
+      "Home",
+      "Single stationary point"
+    ]
+  },
+  {
+    "objectID": "SSP.html#differentiability",
+    "href": "SSP.html#differentiability",
+    "title": "Single Stable Points",
+    "section": "",
+    "text": "A function \\(\\fb:\\Real^n\\to\\Real^m\\) is differentiable at \\(\\xb\\in\\Real^n\\) if there exists an \\(m\\times n\\) matrix \\(M\\) and a map \\(\\Rb:\\Real^n\\to\\Real^m\\) such that \\[\n\\fb(\\xb + \\hb) = \\fb(\\xb) + M\\hb + \\Rb(\\hb) \\quad \\textrm{for all $\\hb\\in\\Real^n$}\n\\] and \\[\n\\lim_{\\hb\\to\\bfzero}\\frac{\\Rb(\\hb)}{|\\hb|} = \\bfzero.\n\\]\n\n\n\n\n\n\nNote\n\n\n\nThis definition says that \\(\\fb\\) looks locally like a linear map. The second condition ensures that the nonlinear remainder \\(\\Rb(\\hb)\\) goes to zero faster than linear, as you look closer and closer to \\(\\xb\\).\n\n\n\n\n\n\n\nIf \\(M\\) exists then it is called the (total) derivative of \\(\\fb\\).",
+    "crumbs": [
+      "Home",
+      "Single stationary point"
+    ]
+  },
+  {
+    "objectID": "bif.html",
+    "href": "bif.html",
+    "title": "Bifurcations",
+    "section": "",
+    "text": "A bifurcation is …\nThe 2 types we will look at is trancritical and Hopf bifurctaions\nBifurcations and CRNs\nRead more …",
+    "crumbs": [
+      "Home",
+      "Bifrucations"
+    ]
+  },
+  {
     "objectID": "CRN.html",
     "href": "CRN.html",
     "title": "Chemical reaction networks",
