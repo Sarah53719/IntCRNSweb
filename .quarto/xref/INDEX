@@ -4,5 +4,17 @@
   },
   "about.qmd": {
     "about.html": "06fa3d28"
+  },
+  "intro.qmd": {
+    "intro.html": "600e18d9"
+  },
+  "CRN.qmd": {
+    "CRN.html": "f145d15c"
+  },
+  "Weak&dif.qmd": {
+    "Weak&dif.html": "3cf79350"
+  },
+  "massaction.qmd": {
+    "massaction.html": "b74aea96"
   }
 }

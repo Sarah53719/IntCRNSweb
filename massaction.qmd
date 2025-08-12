@@ -1,0 +1,9 @@
+---
+title: "Chemical reaction networks"
+---
+
+Law of mass action = The rate at which a reaction occurs is directly proportional to the concentration of the reactant species.
+
+Despite this simple formulation, mass-action systems are known which exhibit varied and exotic behaviour,
+including stability, multistability, switching behaviour, finite escape time, oscillations, limit cycles,
+chaotic behaviour, and Hopf bifurcations.

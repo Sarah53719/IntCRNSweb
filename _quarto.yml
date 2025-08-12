@@ -3,10 +3,32 @@ project:
   output-dir: docs
 
 website:
-  title: "mysite"
+  title: "Sarah's page"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - href: intro.qmd
+        text: Introduction
       - href: about.qmd
         text: About
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: "Introduction"
+        href: intro.qmd
+      - text: "Chemical Reaction Network"
+        href: CRN.qmd
+      - text: "Mass Action"
+        href: massaction.qmd
+      - text: "Bifrucations"
+        href: Weak&dif.qmd
+      - text: "Single stationary point"
+        href: Weak&dif.qmd
+      - text: "Multistationary point"
+        href: Weak&dif.qmd
+      - text: "Limit cycles"
+        href: Weak&dif.qmd
+      - text: "CRN examples"
+        href: Weak&dif.qmd

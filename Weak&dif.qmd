@@ -1,0 +1,10 @@
+---
+title: "Chemical reaction networks"
+---
+deficiency = a non-negative integer associated to a reaction network measure of how far a weakly
+reversible system is for being complex-balanced. so zero deficiency theorem refers to the codimension
+zero case (case where the mass-action system is complex-balanced for all k)
+deficiency of the network is the non-negative integer = m l s where: m nodes and l connected
+components and the dimension of the stoichiometric subspace is s.
+Deficiency zero theorem = a mass-action system if complex balanced for all values of its reaction
+rate constant iff it’s weakly reversible and has deficiency zero

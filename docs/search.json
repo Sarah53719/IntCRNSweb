@@ -1,16 +1,53 @@
 [
   {
+    "objectID": "massaction.html",
+    "href": "massaction.html",
+    "title": "Chemical reaction networks",
+    "section": "",
+    "text": "Law of mass action = The rate at which a reaction occurs is directly proportional to the concentration of the reactant species.\nDespite this simple formulation, mass-action systems are known which exhibit varied and exotic behaviour, including stability, multistability, switching behaviour, finite escape time, oscillations, limit cycles, chaotic behaviour, and Hopf bifurcations.",
+    "crumbs": [
+      "Home",
+      "Mass Action"
+    ]
+  },
+  {
+    "objectID": "CRN.html",
+    "href": "CRN.html",
+    "title": "Chemical reaction networks",
+    "section": "",
+    "text": "Chemical reaction network (CRN) is a framework for modeling the evolution of chemical concentrations reuslting from simulating occuring chemical reactions CRN is given by sets of chemical species which react to form different sets of species.\nDefined by N = (S, C, R) where S id the species set, C is the complex st and R is the reaction set.\nCRNs can be regarded as Euclidean embedded graph and so can be represented as a directed graph G(V, E), which keeps track of the connections between the nodes of the graph.",
+    "crumbs": [
+      "Home",
+      "Chemical Reaction Network"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Chemical reaction networks",
+    "section": "",
+    "text": "This website is a culmination of everything I learnt over the summer. In this we are gonna go through definition of Chemical Reaction Networks (CRNS) and apply it to mass action kinetics. Then show different theorems like xero deficiency and weakly reverible to help show type of stability. Next we will look at bifurcation and explain with different examples. After there are some practise examples of different crn example with diagrams.",
+    "crumbs": [
+      "Home",
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "Weak&dif.html",
+    "href": "Weak&dif.html",
+    "title": "Chemical reaction networks",
+    "section": "",
+    "text": "deficiency = a non-negative integer associated to a reaction network measure of how far a weakly reversible system is for being complex-balanced. so zero deficiency theorem refers to the codimension zero case (case where the mass-action system is complex-balanced for all k) deficiency of the network is the non-negative integer = m l s where: m nodes and l connected components and the dimension of the stoichiometric subspace is s. Deficiency zero theorem = a mass-action system if complex balanced for all values of its reaction rate constant iff it’s weakly reversible and has deficiency zero",
+    "crumbs": [
+      "Home",
+      "Bifrucations"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
     "text": "About this site"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "project:",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
   }
 ]
