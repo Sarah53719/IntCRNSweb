@@ -23,12 +23,12 @@ website:
       - text: "Mass Action"
         href: massaction.qmd
       - text: "Bifrucations"
-        href: Weak&dif.qmd
+        href: bif.qmd
       - text: "Single stationary point"
-        href: Weak&dif.qmd
+        href: SSP.qmd
       - text: "Multistationary point"
-        href: Weak&dif.qmd
+        href: MsP.qmd
       - text: "Limit cycles"
-        href: Weak&dif.qmd
+        href: LP.qmd
       - text: "CRN examples"
-        href: Weak&dif.qmd
+        href: EXP.qmd
