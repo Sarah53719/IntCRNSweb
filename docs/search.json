@@ -14,14 +14,25 @@
     "text": "deficiency = a non-negative integer associated to a reaction network measure of how far a weakly reversible system is for being complex-balanced. so zero deficiency theorem refers to the codimension zero case (case where the mass-action system is complex-balanced for all k) deficiency of the network is the non-negative integer = m l s where: m nodes and l connected components and the dimension of the stoichiometric subspace is s. Deficiency zero theorem = a mass-action system if complex balanced for all values of its reaction rate constant iff it’s weakly reversible and has deficiency zero"
   },
   {
-    "objectID": "intro.html",
-    "href": "intro.html",
+    "objectID": "Reversible.html",
+    "href": "Reversible.html",
     "title": "Chemical reaction networks",
     "section": "",
-    "text": "This website is a culmination of everything I learnt over the summer. In this we are gonna go through definition of Chemical Reaction Networks (CRNS) and apply it to mass action kinetics. Then show different theorems like xero deficiency and weakly reverible to help show type of stability. Next we will look at bifurcation and explain with different examples. After there are some practise examples of different crn example with diagrams.",
+    "text": "Reversible A network or graph is reversible if y’ -&gt; y is a reaction whenever y -&gt; y’ is a reaction\nWeakly reversible if every reaction is part of an oriented cycle ie. each connected component of the graph is strongly connected\n\nWhen the underlying graph is weakly revesible, we will see that the solutions of the mass-action system are conjectured to have many important properties. Such as: - existence of positive steady states for all parameter values, persistence, permanence, and if the network satisfies some additional assumptions, also global stability\nAccording to Horn-Jackson theorem below, a complex-balanced system has a unique steady state within each stoichiometric compatability class and it is locally stable within it.\nOf all positive steady states we call attention to 2 kinds: these are characterised by the flux of a state xo (the valyes k (y-&gt;y’) xo^y of the reaction rate evaluated at xo)\n\nDetailed-balanced steady state a state xo is this if the network is reversible and every forward flux is balanced by the backward\n\nif a network is not reversible, then it cannot admit a detailed-balanced steady state. - the fluxes across pairs of reversible reactions ate balanced in a detailed- balanced steady state hence xo is also called an edge-balanced steady state.\n\nComplex-balanced steady state if at each vertex of the graph, the flux flowing into the vertex balance the fluxes flowing out of the vertex at that state\n\nif the network is not weakly reversible then it cannot admit a complex-balanced steady state. - At a complex-balanced steady state x0, the net flux through any vertex is zero; hence x0 is also called a vertex-balanced steady state.\nCOMPLEX BALANCE IS A GENRALIZATION OF DETAILED BALANCE SO if the state x0 is detailed-balanced, then it is complex balanced\nT",
     "crumbs": [
       "Home",
-      "Introduction"
+      "Calculations"
+    ]
+  },
+  {
+    "objectID": "bif.html",
+    "href": "bif.html",
+    "title": "Bifurcations",
+    "section": "",
+    "text": "A bifurcation is …\nThe 2 types we will look at is trancritical and Hopf bifurctaions\nBifurcations and CRNs\nRead more …",
+    "crumbs": [
+      "Home",
+      "Bifrucations"
     ]
   },
   {
@@ -47,14 +58,14 @@
     ]
   },
   {
-    "objectID": "bif.html",
-    "href": "bif.html",
-    "title": "Bifurcations",
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "Chemical reaction networks",
     "section": "",
-    "text": "A bifurcation is …\nThe 2 types we will look at is trancritical and Hopf bifurctaions\nBifurcations and CRNs\nRead more …",
+    "text": "This website is a culmination of everything I learnt over the summer. In this we are gonna go through definition of Chemical Reaction Networks (CRNS) and apply it to mass action kinetics. Then show different theorems like zero deficiency and weakly reverible to help show type of stability. Next we will look at bifurcation and explain with different examples. After there are some practise examples of different crn example with diagrams.",
     "crumbs": [
       "Home",
-      "Bifrucations"
+      "Introduction"
     ]
   },
   {
@@ -62,7 +73,7 @@
     "href": "CRN.html",
     "title": "Chemical reaction networks",
     "section": "",
-    "text": "Chemical reaction network (CRN) is a framework for modeling the evolution of chemical concentrations reuslting from simulating occuring chemical reactions CRN is given by sets of chemical species which react to form different sets of species.\nDefined by N = (S, C, R) where S id the species set, C is the complex st and R is the reaction set.\nCRNs can be regarded as Euclidean embedded graph and so can be represented as a directed graph G(V, E), which keeps track of the connections between the nodes of the graph.",
+    "text": "Chemical reaction network (CRN) is a framework for modeling the evolution of chemical concentrations reuslting from simulating occuring chemical reactions\nCRN is given by sets of chemical species which react to form different sets of species.\nDefined by N = (S, C, R) where S id the species set, C is the complex st and R is the reaction set. Contains 3 finite non-empty sets\nCRN - chemical reaction network = often modelled under the assumption of mass action kinetics by a system of ODEs with polynomial right-hadn sides that describe the time evolution of concentrations of chemcial species involved.\na collection (S = chemical species, C reaction complexes, R chemical reactions)\nCRNs can be regarded as Euclidean embedded graph and so can be represented as a directed graph G(V, E), which keeps track of the connections between the nodes of the graph.",
     "crumbs": [
       "Home",
       "Chemical Reaction Network"
@@ -73,7 +84,7 @@
     "href": "massaction.html",
     "title": "Chemical reaction networks",
     "section": "",
-    "text": "Law of mass action = The rate at which a reaction occurs is directly proportional to the concentration of the reactant species.\nDespite this simple formulation, mass-action systems are known which exhibit varied and exotic behaviour, including stability, multistability, switching behaviour, finite escape time, oscillations, limit cycles, chaotic behaviour, and Hopf bifurcations.",
+    "text": "Law of mass action = The rate at which a reaction occurs is directly proportional to the concentration of the reactant species.\nDespite this simple formulation, mass-action systems are known which exhibit varied and exotic behaviour, including stability, multistability, switching behaviour, finite escape time, oscillations, limit cycles, chaotic behaviour, and Hopf bifurcations.\nMass-action kinteics = rate at which a reaction occurs is directly proportional to the concentation of the reactant species\nNewtork that contains several reactions, then terms of this tyoe can b added together to obtain a mass model for the whole network.\nBehaviours of mass-action systems also vary wildly - a single steady state fot all choices of rate constants - systems that have multiple steady states - systems that oscillate - systems that admit chaotic behaviours\nTo illustrate mass-action kinetics, consider the reaction network which gives rise to the following system of differential equations on the positive orthant.\nGIVE EXAMPLE\nEXPLAIN TRAJECTORY, CONCENTRATION AND STATE\nBefore we get started we need to introduce more definitions and notations. Write the dynamical system in vector-based form:\n\nComplex vectors Objects which are source or the target of a reaction It helps us workout the reaction rate function GIVE EXAMPLE\nReaction vectors The difference between the complex vectors of the target and the source of each reaction. It records the stoichiometry of the reaction\n\nA chemical reaction network can be regarded as a Euclidean embedded graph G = (V,E) as there is a defined oriented graph underlying a reaction network. Graph where the vertices are complexes and the edges are reactions. V = set of the vertices of the graph and E is the set of oriented edges.\nGiven a reaction network with its Euclidean embedded graph G, and given a vector of reaction rate constant k and using x^y , we can write the mass-action system generated by (G, k):\n\nStoichiometric subspace S of a reaction network G is the vector space spanned by its reaction vectors\n\nS = span {y’ -y: y -&gt; y’}",
     "crumbs": [
       "Home",
       "Mass Action"

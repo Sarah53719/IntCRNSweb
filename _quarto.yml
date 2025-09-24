@@ -22,6 +22,8 @@ website:
         href: CRN.qmd
       - text: "Mass Action"
         href: massaction.qmd
+      - text: "Calculations"
+        href: Reversible.qmd
       - text: "Bifrucations"
         href: bif.qmd
       - text: "Single stationary point"

@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Chemical reaction networks</li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Reversible.html">Calculations</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -151,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Reversible.html" class="sidebar-item-text sidebar-link">
+  <a href="./Reversible.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Calculations</span></a>
   </div>
 </li>
@@ -213,7 +213,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>deficiency = a non-negative integer associated to a reaction network measure of how far a weakly reversible system is for being complex-balanced. so zero deficiency theorem refers to the codimension zero case (case where the mass-action system is complex-balanced for all k) deficiency of the network is the non-negative integer = m l s where: m nodes and l connected components and the dimension of the stoichiometric subspace is s. Deficiency zero theorem = a mass-action system if complex balanced for all values of its reaction rate constant iff it’s weakly reversible and has deficiency zero</p>
+<ol type="1">
+<li><p>Reversible A network or graph is reversible if y’ -&gt; y is a reaction whenever y -&gt; y’ is a reaction</p></li>
+<li><p>Weakly reversible if every reaction is part of an oriented cycle ie. each connected component of the graph is strongly connected</p></li>
+</ol>
+<p>When the underlying graph is weakly revesible, we will see that the solutions of the mass-action system are conjectured to have many important properties. Such as: - existence of positive steady states for all parameter values, persistence, permanence, and if the network satisfies some additional assumptions, also global stability</p>
+<p>According to Horn-Jackson theorem below, a complex-balanced system has a unique steady state within each stoichiometric compatability class and it is locally stable within it.</p>
+<p>Of all positive steady states we call attention to 2 kinds: these are characterised by the flux of a state xo (the valyes k (y-&gt;y’) xo^y of the reaction rate evaluated at xo)</p>
+<ol start="3" type="1">
+<li>Detailed-balanced steady state a state xo is this if the network is reversible and every forward flux is balanced by the backward</li>
+</ol>
+<p>if a network is not reversible, then it cannot admit a detailed-balanced steady state. - the fluxes across pairs of reversible reactions ate balanced in a detailed- balanced steady state hence xo is also called an edge-balanced steady state.</p>
+<ol start="4" type="1">
+<li>Complex-balanced steady state if at each vertex of the graph, the flux flowing into the vertex balance the fluxes flowing out of the vertex at that state</li>
+</ol>
+<p>if the network is not weakly reversible then it cannot admit a complex-balanced steady state. - At a complex-balanced steady state x0, the net flux through any vertex is zero; hence x0 is also called a vertex-balanced steady state.</p>
+<p>COMPLEX BALANCE IS A GENRALIZATION OF DETAILED BALANCE SO if the state x0 is detailed-balanced, then it is complex balanced</p>
+<p>T</p>
 
 
 

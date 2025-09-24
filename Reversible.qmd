@@ -1,0 +1,38 @@
+---
+title: "Chemical reaction networks"
+---
+
+1. Reversible
+A network or graph is reversible if y' -> y is a reaction whenever y -> y' is a reaction
+
+2. Weakly reversible
+if every reaction is part of an oriented cycle
+ie. each connected component of the graph is strongly connected
+
+When the underlying graph is weakly revesible, we will see that the solutions of the mass-action system are conjectured to have many important properties.
+Such as:
+- existence of positive steady states for all parameter values, persistence, permanence, and if the network satisfies some additional assumptions, also global stability
+
+According to Horn-Jackson theorem below, a complex-balanced system has a unique steady state within each stoichiometric compatability class and it is locally stable within it.
+
+
+Of all positive steady states we call attention to 2 kinds: these are characterised by the flux of a state xo (the valyes k (y->y') xo^y of the reaction rate evaluated at xo)
+
+3. Detailed-balanced steady state
+a state xo is this if the network is reversible and every forward flux is balanced by the backward
+
+if a network is not reversible, then it cannot admit a detailed-balanced steady state.
+- the fluxes across pairs of reversible reactions ate balanced in a detailed- balanced steady state hence xo is also called an edge-balanced steady state.
+
+4. Complex-balanced steady state
+if at each vertex of the graph, the flux flowing into the vertex balance the fluxes flowing out of the vertex at that state
+
+if the network is not weakly reversible then it cannot admit a complex-balanced steady state.
+- At a complex-balanced steady
+state x0, the net flux through any vertex is zero; hence x0 is also called a vertex-balanced
+steady state.
+
+
+COMPLEX BALANCE IS A GENRALIZATION OF DETAILED BALANCE SO if the state x0 is detailed-balanced, then it is complex balanced
+
+T

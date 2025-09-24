@@ -3,10 +3,19 @@ title: "Chemical reaction networks"
 ---
 
 Chemical reaction network (CRN) is a framework for modeling the evolution of chemical concentrations reuslting from simulating occuring chemical reactions
+
 CRN is given by sets of chemical species which react to form different sets of species.
 
 Defined by N = (S, C, R) where S id the species set, C is the complex st and R is the reaction set.
+Contains 3 finite non-empty sets
+
+CRN - chemical reaction network = often modelled under the assumption of mass action kinetics by a system of ODEs with polynomial right-hadn sides that describe the time evolution of concentrations of chemcial species involved.
+
+a collection (S = chemical species, C reaction complexes, R chemical reactions)
+
 
 CRNs can be regarded as Euclidean embedded graph and so can be represented as a directed graph G(V, E),
  which keeps track of the connections between the nodes of the graph.
+
+
 

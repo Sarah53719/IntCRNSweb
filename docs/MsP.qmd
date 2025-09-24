@@ -1,3 +1,4 @@
 ---
-title: "Multistable Points"
+title: "Multistationary Points"
 ---
+
